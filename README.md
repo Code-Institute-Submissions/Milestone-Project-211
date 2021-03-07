@@ -2,7 +2,10 @@
 
 ## Purpose
 
+The purpose of this project is to showcase everything I have learned within the JavaScript and Interactive Frontend Development modules of the Code Institute Full Stack Development course. A full list of technologies used can be found in the technologies section of this document.
 
+The purpose of the website is to show tourists that visit Sydney the best attractions, bars/clubs, hotels and restaurants. 
+Please see below for the link to the website.
 <br>
 <br>
 
@@ -10,42 +13,42 @@
 
 ### User Stories
 
-**Who** – 
+**Who** – Tourist.
 <br>
-**Want** – 
+**Want** – To view the best attractions in Sydney.
 <br>
-**Why** – 
-<br>
-<br>
-**Who** – 
-<br>
-**Want** – 
-<br>
-**Why** – 
+**Why** – To make the most of my short stay in the city.
 <br>
 <br>
-**Who** – 
+**Who** – Tourist.
 <br>
-**Want** – 
+**Want** – To eat at the best restaurants in Sydney.
 <br>
-**Why** – 
+**Why** – To make the most of my short stay in the city.
 <br>
 <br>
-**Who** – 
+**Who** – Tourist.
 <br>
-**Want** – 
+**Want** – To experience the Sydney night life and have a good time.
 <br>
-**Why** – 
+**Why** – To make the most of my short stay in the city.
+<br>
+<br>
+**Who** – Tourist.
+<br>
+**Want** – To find a hotel in a good location thats near the best tourist attractions.
+<br>
+**Why** – So I don't need to travel to far and see/do as much as I can in the city.
 <br>
 ### Structure
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* The website will be a single scrolling page with 3 page areas.
+* The navigation bar will be sticky. This will become collapsable when on mobile device.
+* The website will be responsive and the layouts will change according to the screen size.
+* The first page area will be named Discover Syndey. This will outline what Sydney has to offer for tourists.
+* The second page area will be named Explore. This will show the best attractions, bars/clubs, hotels and restaurants. 
+* The third page area will be named Contact. This will have a contact form where tourists can give us feedback and suggestions.
+* The footer will contain social media icons.
 
 ### Design
 
