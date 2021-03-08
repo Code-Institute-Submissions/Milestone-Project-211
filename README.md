@@ -53,9 +53,13 @@ Please see below for the link to the website.
 ### Design
 
 #### Colour Scheme
-
+**White** - Page headers, section text, navigation bar and footer, this is because it will contrast well with the background images. 
+<br>
+**Blue** - Navigation bar and footer text, this is because it contrasts well with white.
+<br>
 #### Typography
-
+**Oswald** - This font will be used throughout the whole webpage, this is because it looks clean, professional and is easy to read.
+<br>
 #### Wireframes
 To see the wireframes for all pages on both desktop and mobile view please click the below link.
 <br>
@@ -66,6 +70,11 @@ To see the wireframes for all pages on both desktop and mobile view please click
 ## Features
 
 ### Planned Features
+* The header will contain a sticky navigation bar. This will have 3 links which will direct you to the following page sections; Home, Explore & Contact.
+* The footer will contain 3 social media icons for Facebook, Instagram & Youtube which will direct you to the website of the icon selected.
+* The mobile view will get rid of the navigation bar and instead have a navigation button. When clicking this button the 3 navigation links will appear vertically on the page. 
+* The Explore page section will contain 4 buttons for attractions, bars/clubs, hotels and restaurants, as well as a Google Maps API. Clicking on a button will show our top 10 picks for the selected category on the Maps API.
+* The Contact page section will contain a contact form which will have the following fields; Name, Email, Message. All fields will be mandatory to fill out and the form will be fully funnctional. An email will be sent out to the site owner when a form has been submitted.
 
 ### Features Left to Implement
 
