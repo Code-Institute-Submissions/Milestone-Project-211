@@ -53,9 +53,9 @@ Please see below for the link to the website.
 ### Design
 
 #### Colour Scheme
-**White** - Page headers, section text, navigation bar and footer, this is because it will contrast well with the background images. 
+**White** - Page headers, navigation bar and footer, this is because it will contrast well with the background images. 
 <br>
-**Blue** - Navigation bar and footer text, this is because it contrasts well with white.
+**Black** - Navigation bar, section text and footer text, this is because it contrasts well with white.
 <br>
 #### Typography
 **Oswald** - This font will be used throughout the whole webpage, this is because it looks clean, professional and is easy to read.
