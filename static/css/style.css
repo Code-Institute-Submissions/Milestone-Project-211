@@ -98,11 +98,107 @@ body {
 
 /* ---------------------------------------------Media Queries*/
 
-@media (max-width: 420px) {
+@media (max-width: 374px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .section-name {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+
+    .header-line {
+        width: 70%;
+    }
+
+    .home-text {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .explore-button {
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 800px) and (min-width: 420px) {
+@media (max-width: 420px) and (min-width: 375px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .section-name {
+        font-size: 45px;
+        padding-top: 65px;
+    }
+
+    .header-line {
+        width: 75%;
+    }
+
+    .home-text {
+        font-size: 18px;
+        width: 80%;
+    }
 }
+
+@media (max-width: 540px) and (min-width: 421px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .section-name {
+        font-size: 60px;
+    }
+
+    .header-line {
+        width: 75%;
+    }
+
+    .home-text {
+        font-size: 20px;
+        width: 75%;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 541px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .section-name {
+        font-size: 70px;
+    }
+
+    .header-line {
+        width: 75%;
+    }
+
+    .home-text {
+        font-size: 20px;
+        width: 75%;
+    }
+}
+
 
 @media (max-height: 1400px) and (min-height: 1200px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .header-line {
+        width: 75%;
+    }
+
+    .home-text {
+        width: 75%;
+    }
+
+    .explore-button {
+        width: 140px;
+        height: 70px;
+        font-size: 22px;
+    }
 }
