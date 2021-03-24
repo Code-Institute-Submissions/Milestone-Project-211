@@ -53,7 +53,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFFFFF;
-	padding-top: 85px;
+	padding-top: 110px;
     font-size: 100px;
     text-shadow: 1px 1px #000000;
 }
@@ -80,7 +80,7 @@ body {
     margin-bottom: 30px;
     border-radius: 8px;
     border: 1px solid #000000;
-    background: rgba(255, 255, 255, 0.85)
+    background: rgba(255, 255, 255, 0.85);
 }
 
 /* Explore button font style, size, positioning and colour */
@@ -97,7 +97,109 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background: rgba(255, 255, 255, 0.8)
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Explore section background image */
+
+.explore-section {
+    background-image: url("../images/explore.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+/* Explore text font style, size, positioning and colour */
+
+.explore-text {
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	display: block;
+    color: #000000;
+    background-color: #ffffff;
+	font-weight: 300;
+	font-size: 30px;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.map-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Attractions button font style, size, positioning and colour */
+
+.attractions-button {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 50px;
+}
+
+/* Bars/Clubs button font style, size, positioning and colour */
+
+.barsclubs-button {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 50px;
+}
+
+/* Hotels button font style, size, positioning and colour */
+
+.hotels-button {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 50px;
+}
+
+/* Restaurants button font style, size, positioning and colour */
+
+.restaurants-button {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 /* ---------------------------------------------Media Queries*/
@@ -109,7 +211,7 @@ body {
 
     .section-name {
         font-size: 35px;
-        padding-top: 65px;
+        padding-top: 85px;
     }
 
     .header-line {
@@ -135,7 +237,7 @@ body {
 
     .section-name {
         font-size: 45px;
-        padding-top: 65px;
+        padding-top: 85px;
     }
 
     .header-line {
@@ -145,6 +247,11 @@ body {
     .home-text {
         font-size: 18px;
         width: 80%;
+    }
+
+    .map-button {
+        flex-basis: 40%;
+        margin: 5px;
     }
 }
 
