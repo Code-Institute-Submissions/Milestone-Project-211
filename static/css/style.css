@@ -137,6 +137,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 /* Attractions button font style, size, positioning and colour */
@@ -202,10 +203,22 @@ body {
     background: rgba(255, 255, 255, 0.8);
 }
 
+div#map {
+    min-height: 360px;
+    height: 450px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ---------------------------------------------Media Queries*/
 
 @media (max-width: 374px) {
     .home-section {
+        background-size: cover;
+    }
+
+    .explore-section {
         background-size: cover;
     }
 
@@ -223,8 +236,42 @@ body {
         width: 80%;
     }
 
+    .explore-text {
+        font-size: 16px;
+        width: 80%;
+    }
+
     .explore-button {
         width: 100px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .map-button {
+        flex-basis: 40%;
+        margin: 5px;
+    }
+
+    .attractions-button {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .barsclubs-button {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .hotels-button {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .restaurants-button {
+        width: 120px;
         height: 50px;
         font-size: 18px;
     }
@@ -232,6 +279,10 @@ body {
 
 @media (max-width: 420px) and (min-width: 375px) {
     .home-section {
+        background-size: cover;
+    }
+
+    .explore-section {
         background-size: cover;
     }
 
@@ -249,6 +300,11 @@ body {
         width: 80%;
     }
 
+    .explore-text {
+        font-size: 18px;
+        width: 80%;
+    }
+
     .map-button {
         flex-basis: 40%;
         margin: 5px;
@@ -257,6 +313,10 @@ body {
 
 @media (max-width: 540px) and (min-width: 421px) {
     .home-section {
+        background-size: cover;
+    }
+
+    .explore-section {
         background-size: cover;
     }
 
@@ -272,10 +332,25 @@ body {
         font-size: 20px;
         width: 75%;
     }
+
+    .explore-text {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .map-button {
+        flex-basis: 40%;
+        margin: 5px;
+    }
+
 }
 
 @media (max-width: 800px) and (min-width: 541px) {
     .home-section {
+        background-size: cover;
+    }
+
+    .explore-section {
         background-size: cover;
     }
 
@@ -291,11 +366,32 @@ body {
         font-size: 20px;
         width: 75%;
     }
-}
 
+    .explore-text {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .attractions-button {
+        margin-right: 25px;
+    }
+
+    .barsclubs-button {
+        margin-right: 25px;
+    }
+
+    .hotels-button {
+        margin-right: 25px;
+    }
+
+}
 
 @media (max-height: 1400px) and (min-height: 1200px) {
     .home-section {
+        background-size: cover;
+    }
+
+    .explore-section {
         background-size: cover;
     }
 
@@ -312,4 +408,5 @@ body {
         height: 70px;
         font-size: 22px;
     }
+
 }
