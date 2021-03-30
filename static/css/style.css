@@ -111,9 +111,9 @@ body {
     background-attachment: scroll;
 }
 
-/* Explore text font style, size, positioning and colour */
+/* Explore/Contact text font style, size, positioning and colour */
 
-.explore-text {
+.explore-contact-text {
 	font-family: "Oswald", sans-serif;
 	text-align: center;
 	display: block;
@@ -211,6 +211,35 @@ div#map {
     margin-right: auto;
 }
 
+/* Contact section background image */
+
+.contact-section {
+    background-image: url("../images/contact.jpg");
+    height: calc(100vh - 56px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+/* ---------------------------------------------Footer */
+
+.footer {
+	width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li a i {
+	font-size: 40px;
+	text-align: center;
+    color: #000000;
+    margin-top: 17px;
+}
+
 /* ---------------------------------------------Media Queries*/
 
 @media (max-width: 374px) {
@@ -236,7 +265,7 @@ div#map {
         width: 80%;
     }
 
-    .explore-text {
+    .explore-contact-text {
         font-size: 16px;
         width: 80%;
     }
@@ -300,7 +329,7 @@ div#map {
         width: 80%;
     }
 
-    .explore-text {
+    .explore-contact-text {
         font-size: 18px;
         width: 80%;
     }
@@ -333,7 +362,7 @@ div#map {
         width: 75%;
     }
 
-    .explore-text {
+    .explore-contact-text {
         font-size: 20px;
         width: 75%;
     }
@@ -367,7 +396,7 @@ div#map {
         width: 75%;
     }
 
-    .explore-text {
+    .explore-contact-text {
         font-size: 20px;
         width: 75%;
     }
