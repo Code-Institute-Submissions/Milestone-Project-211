@@ -11,6 +11,7 @@ body {
 
 /* ---------------------------------------------Heading */
 
+
 /* Navigation font style, size, positioning and colour */
 
 .nav-link {
@@ -20,31 +21,35 @@ body {
 	text-transform: uppercase;
 }
 
+
 /* Navigation font style, size, positioning and colour */
 
 .navbar-brand {
-   	font-family: "Oswald", sans-serif;
+	font-family: "Oswald", sans-serif;
 	font-weight: 500;
 	font-size: 20px;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .fixed-top {
-    position: fixed;
+	position: fixed;
 }
 
+
 /* ---------------------------------------------Section */
+
 
 /* Home section background image */
 
 .home-section {
-    background-image: url("../images/home.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: scroll;
+	background-image: url("../images/home.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
 }
+
 
 /* Page name font style, size, positioning and colour */
 
@@ -54,15 +59,16 @@ body {
 	text-align: center;
 	color: #FFFFFF;
 	padding-top: 110px;
-    font-size: 100px;
-    text-shadow: 1px 1px #000000;
+	font-size: 100px;
+	text-shadow: 1px 1px #000000;
 }
 
 .header-line {
-    border: 1px solid #FFFFFF;
-    width: 50%;
-    margin-bottom: 30px;
+	border: 1px solid #FFFFFF;
+	width: 50%;
+	margin-bottom: 30px;
 }
+
 
 /* Home text font style, size, positioning and colour */
 
@@ -70,46 +76,49 @@ body {
 	font-family: "Oswald", sans-serif;
 	text-align: center;
 	display: block;
-    color: #000000;
-    background-color: #ffffff;
+	color: #000000;
+	background-color: #ffffff;
 	font-weight: 300;
 	font-size: 30px;
 	width: 50%;
 	margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    border: 1px solid #000000;
-    background: rgba(255, 255, 255, 0.85);
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	border: 1px solid #000000;
+	background: rgba(255, 255, 255, 0.85);
 }
+
 
 /* Explore button font style, size, positioning and colour */
 
 .explore-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 120px;
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 120px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: rgba(255, 255, 255, 0.8);
 }
+
 
 /* Explore section background image */
 
 .explore-section {
-    background-image: url("../images/explore.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: scroll;
+	background-image: url("../images/explore.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
 }
+
 
 /* Explore/Contact text font style, size, positioning and colour */
 
@@ -117,127 +126,133 @@ body {
 	font-family: "Oswald", sans-serif;
 	text-align: center;
 	display: block;
-    color: #000000;
-    background-color: #ffffff;
+	color: #000000;
+	background-color: #ffffff;
 	font-weight: 300;
 	font-size: 30px;
 	width: 50%;
 	margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    border: 1px solid #000000;
-    background: rgba(255, 255, 255, 0.85);
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	border: 1px solid #000000;
+	background: rgba(255, 255, 255, 0.85);
 }
 
 .map-buttons {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
 }
+
 
 /* Attractions button font style, size, positioning and colour */
 
 .attractions-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 140px;
-    height: 60px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.8);
-    margin-right: 50px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 140px;
+	height: 60px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.8);
+	margin-right: 50px;
 }
+
 
 /* Bars/Clubs button font style, size, positioning and colour */
 
 .barsclubs-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 140px;
-    height: 60px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.8);
-    margin-right: 50px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 140px;
+	height: 60px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.8);
+	margin-right: 50px;
 }
+
 
 /* Hotels button font style, size, positioning and colour */
 
 .hotels-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 140px;
-    height: 60px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.8);
-    margin-right: 50px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 140px;
+	height: 60px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.8);
+	margin-right: 50px;
 }
+
 
 /* Restaurants button font style, size, positioning and colour */
 
 .restaurants-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 140px;
-    height: 60px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 140px;
+	height: 60px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.8);
 }
 
 div#map {
-    min-height: 360px;
-    height: 450px;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+	height: 450px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 /* Contact section background image */
 
 .contact-section {
-    background-image: url("../images/contact.jpg");
-    height: calc(100vh - 56px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: scroll;
+	background-image: url("../images/contact.jpg");
+	height: calc(100vh - 56px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
 }
+
 
 /* Contact button font style, size, positioning and colour */
 
 .contact-button {
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 12px;
-    border: 2px solid #000000;
-    width: 120px;
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	border: 2px solid #000000;
+	width: 120px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background: rgba(255, 255, 255, 0.8);
 }
+
 
 /* Contact form font style, size, positioning and colour */
 
@@ -248,232 +263,345 @@ div#map {
 	padding-top: 10px;
 	font-family: "Oswald", sans-serif;
 	font-weight: 500;
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .form-group {
-    padding-bottom: 15px ;
+	padding-bottom: 15px;
 }
 
 .form-control {
-    border-radius: 12px;
-    border: 1px solid #000000;
+	border-radius: 12px;
+	border: 1px solid #000000;
 }
+
 
 /* ---------------------------------------------Footer */
 
 .footer {
 	width: 100%;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+	height: 56px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .social-links li a i {
 	font-size: 40px;
 	text-align: center;
-    color: #000000;
-    margin-top: 17px;
+	color: #000000;
+	margin-top: 17px;
 }
+
 
 /* ---------------------------------------------Media Queries*/
 
+@media (max-width: 350px) {
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.section-name {
+		font-size: 35px;
+		padding-top: 75px;
+		padding-bottom: 5px;
+	}
+	.header-line {
+		display: none;
+	}
+	.home-text {
+		font-size: 16px;
+		width: 80%;
+	}
+	.explore-contact-text {
+		font-size: 16px;
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	.explore-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.map-button {
+		flex-basis: 40%;
+		margin: 5px;
+	}
+	.map-buttons {
+		margin-bottom: 15px;
+	}
+	.attractions-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.barsclubs-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.hotels-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.restaurants-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	div#map {
+		max-height: 200px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
+	.form-group {
+		padding-bottom: 0px;
+	}
+	.contact-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
+}
+
 @media (max-width: 374px) {
-    .home-section {
-        background-size: cover;
-    }
-
-    .explore-section {
-        background-size: cover;
-    }
-
-    .section-name {
-        font-size: 35px;
-        padding-top: 85px;
-    }
-
-    .header-line {
-        width: 70%;
-    }
-
-    .home-text {
-        font-size: 16px;
-        width: 80%;
-    }
-
-    .explore-contact-text {
-        font-size: 16px;
-        width: 80%;
-    }
-
-    .explore-button {
-        width: 100px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .map-button {
-        flex-basis: 40%;
-        margin: 5px;
-    }
-
-    .attractions-button {
-        width: 120px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .barsclubs-button {
-        width: 120px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .hotels-button {
-        width: 120px;
-        height: 50px;
-        font-size: 18px;
-    }
-
-    .restaurants-button {
-        width: 120px;
-        height: 50px;
-        font-size: 18px;
-    }
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.section-name {
+		font-size: 35px;
+		padding-top: 75px;
+	}
+	.header-line {
+		width: 70%;
+	}
+	.home-text {
+		font-size: 16px;
+		width: 80%;
+	}
+	.explore-contact-text {
+		font-size: 16px;
+		width: 80%;
+	}
+	.explore-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.map-button {
+		flex-basis: 40%;
+		margin: 5px;
+	}
+	.attractions-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.barsclubs-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.hotels-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.restaurants-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	div#map {
+		max-height: 200px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
+	.form-group {
+		padding-bottom: 0px;
+	}
+	.contact-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 420px) and (min-width: 375px) {
-    .home-section {
-        background-size: cover;
-    }
-
-    .explore-section {
-        background-size: cover;
-    }
-
-    .section-name {
-        font-size: 45px;
-        padding-top: 85px;
-    }
-
-    .header-line {
-        width: 75%;
-    }
-
-    .home-text {
-        font-size: 18px;
-        width: 80%;
-    }
-
-    .explore-contact-text {
-        font-size: 18px;
-        width: 80%;
-    }
-
-    .map-button {
-        flex-basis: 40%;
-        margin: 5px;
-    }
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.section-name {
+		font-size: 45px;
+		padding-top: 85px;
+	}
+	.header-line {
+		width: 75%;
+	}
+	.home-text {
+		font-size: 18px;
+		width: 80%;
+	}
+	.explore-contact-text {
+		font-size: 18px;
+		width: 80%;
+	}
+	.map-button {
+		flex-basis: 40%;
+		margin: 5px;
+	}
+	div#map {
+		max-height: 200px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
+	.form-group {
+		padding-bottom: 0px;
+	}
 }
 
 @media (max-width: 540px) and (min-width: 421px) {
-    .home-section {
-        background-size: cover;
-    }
-
-    .explore-section {
-        background-size: cover;
-    }
-
-    .section-name {
-        font-size: 60px;
-    }
-
-    .header-line {
-        width: 75%;
-    }
-
-    .home-text {
-        font-size: 20px;
-        width: 75%;
-    }
-
-    .explore-contact-text {
-        font-size: 20px;
-        width: 75%;
-    }
-
-    .map-button {
-        flex-basis: 40%;
-        margin: 5px;
-    }
-
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.section-name {
+		font-size: 60px;
+	}
+	.header-line {
+		width: 75%;
+	}
+	.home-text {
+		font-size: 20px;
+		width: 75%;
+	}
+	.explore-contact-text {
+		font-size: 20px;
+		width: 75%;
+	}
+	.map-button {
+		flex-basis: 40%;
+		margin: 5px;
+	}
+	div#map {
+		max-height: 200px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
+	.form-group {
+		padding-bottom: 0px;
+	}
 }
 
 @media (max-width: 800px) and (min-width: 541px) {
-    .home-section {
-        background-size: cover;
-    }
-
-    .explore-section {
-        background-size: cover;
-    }
-
-    .section-name {
-        font-size: 70px;
-    }
-
-    .header-line {
-        width: 75%;
-    }
-
-    .home-text {
-        font-size: 20px;
-        width: 75%;
-    }
-
-    .explore-contact-text {
-        font-size: 20px;
-        width: 75%;
-    }
-
-    .attractions-button {
-        margin-right: 25px;
-    }
-
-    .barsclubs-button {
-        margin-right: 25px;
-    }
-
-    .hotels-button {
-        margin-right: 25px;
-    }
-
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.section-name {
+		font-size: 70px;
+	}
+	.header-line {
+		width: 75%;
+	}
+	.home-text {
+		font-size: 20px;
+		width: 75%;
+	}
+	.explore-contact-text {
+		font-size: 20px;
+		width: 75%;
+	}
+	.attractions-button {
+		margin-right: 25px;
+	}
+	.barsclubs-button {
+		margin-right: 25px;
+	}
+	.hotels-button {
+		margin-right: 25px;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
 }
 
 @media (max-height: 1400px) and (min-height: 1200px) {
-    .home-section {
-        background-size: cover;
-    }
-
-    .explore-section {
-        background-size: cover;
-    }
-
-    .header-line {
-        width: 75%;
-    }
-
-    .home-text {
-        width: 75%;
-    }
-
-    .explore-button {
-        width: 140px;
-        height: 70px;
-        font-size: 22px;
-    }
-
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+	.header-line {
+		width: 75%;
+	}
+	.home-text {
+		width: 75%;
+	}
+	.explore-contact-text {
+		width: 75%;
+	}
+	.explore-button {
+		width: 140px;
+		height: 70px;
+		font-size: 22px;
+	}
+	.contact-form {
+		width: 65%;
+		padding-top: 0px;
+	}
 }
