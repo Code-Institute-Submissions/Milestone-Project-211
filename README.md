@@ -6,6 +6,8 @@ The purpose of this project is to showcase everything I have learned within the 
 
 The purpose of the website is to show tourists that visit Sydney the best attractions, bars/clubs, hotels and restaurants. 
 Please see below for the link to the website.
+
+https://sanjaysanghera.github.io/Milestone-Project-2/
 <br>
 <br>
 
