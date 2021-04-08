@@ -575,6 +575,79 @@ div#map {
 		padding-top: 0px;
 	}
 }
+@media (max-width: 1700px) and (min-width: 1200px) {
+	.home-section {
+		background-size: cover;
+	}
+	.explore-section {
+		background-size: cover;
+	}
+	.contact-section {
+		background-size: cover;
+	}
+    .section-name {
+		font-size: 60px;
+        padding-top: 80px;
+	}
+	.header-line {
+		width: 50%;
+        margin-bottom: 20px;
+	}
+	.home-text {
+        font-size: 20px;
+        margin-bottom: 15px;
+	}
+	.explore-contact-text {
+        font-size: 20px;
+        margin-bottom: 15px;
+	}
+	.explore-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.map-buttons {
+		margin-bottom: 15px;
+	}
+	.attractions-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.barsclubs-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.hotels-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	.restaurants-button {
+		width: 120px;
+		height: 50px;
+		font-size: 18px;
+	}
+	div#map {
+		max-height: 300px;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contact-form {
+		width: 45%;
+		padding-top: 0px;
+	}
+	.form-group {
+		padding-bottom: 0px;
+	}
+	.contact-button {
+		width: 100px;
+		height: 50px;
+		font-size: 18px;
+	}
+}
 
 @media (max-height: 1400px) and (min-height: 1200px) {
 	.home-section {
