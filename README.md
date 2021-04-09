@@ -6,7 +6,7 @@
 * [Features](#Features)
 * [Technologies Used](#Technologies-Used)
 * [Testing](#Testing)
-* [Supported Browsers & Devices](#Supported%Browsers%&%Devices)
+* [Supported Browsers And Devices](#Supported-Browsers-And-Devices)
 * [Issues](#Issues)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
@@ -113,7 +113,7 @@ To see the wireframes for all pages on both desktop and mobile view please click
 * CSS file has been validated using the W3C CSS Validation Service website.
 <br>
 
-## Supported Browsers & Devices
+## Supported Browsers And Devices
 
 Below is all the browsers and devices the website has been tested on.
 <br>
