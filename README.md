@@ -3,11 +3,10 @@
 ## Contents
 * [Purpose](#Purpose)
 * [UX](#UX)
-* [Structure](#Structure)
-* [Design](#Design)
 * [Features](#Features)
 * [Technologies Used](#Technologies-Used)
 * [Testing](#Testing)
+* [Supported Browsers & Devices](#Supported-Browsers-&-Devices)
 * [Issues](#Issues)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
