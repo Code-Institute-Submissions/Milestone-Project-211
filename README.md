@@ -1,5 +1,17 @@
 # Milestone Project 2
 
+## Contents
+* [Purpose](#Purpose)
+* [UX](#UX)
+* [Structure](#Structure)
+* [Design](#Design)
+* [Features](#Features)
+* [Technologies Used](#Technologies-Used)
+* [Testing](#Testing)
+* [Issues](#Issues)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
+
 ## Purpose
 
 The purpose of this project is to showcase everything I have learned within the JavaScript and Interactive Frontend Development modules of the Code Institute Full Stack Development course. A full list of technologies used can be found in the technologies section of this document.
