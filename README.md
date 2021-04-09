@@ -10,6 +10,7 @@
 * [Issues](#Issues)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
+<br>
 
 ## Purpose
 
@@ -168,14 +169,12 @@ Below is all the browsers and devices the website has been tested on.
 ## Credits
 
 ### Content
-<br>
 The text content for the Discover Sydney section was taken from:
 <br>
 https://www.australia.com/en-gb/places/sydney-and-surrounds/guide-to-sydney.html
 
 
 ### Media
-<br>
 All images used were used from:
 <br>
 https://pixabay.com/
