@@ -92,13 +92,19 @@ To see the wireframes for all pages on both desktop and mobile view please click
 
 ### Features Left to Implement
 
+**Weather Section**
+<br>
+This section would show what the weather will be for the current week in Sydney.
+<br>
+<br>
+
 ## Technologies Used
 
 * **HTML** - This has been used to structure the project.
 * **CSS** - This has been used to style the project.
 * **Java Script** - This has been used to add complex features to the project.
-* **Bootstrap** - 
-* **Font Awesome** - 
+* **Bootstrap** - This has been used to create the navigation bar and contact form.
+* **Font Awesome** - This has been used to import Oswald font and social media icons.
 * **GitHub** - This has been used to store and deploy the code for the project.
 * **GitPod** - This has been used to create the code for the project.
 * **Google Chrome Developer Tools** - This has been used to inspect the web pages and debug any issues.
@@ -110,7 +116,7 @@ To see the wireframes for all pages on both desktop and mobile view please click
 
 ### Code Validation
 
-* HTML files have been validated using the W3C HTML Validation Service website.
+* HTML file have been validated using the W3C HTML Validation Service website.
 * CSS file has been validated using the W3C CSS Validation Service website.
 <br>
 
@@ -147,6 +153,13 @@ Below is all the browsers and devices the website has been tested on.
 
 ## Issues
 
+**The contact form would not reset after submitting it**
+<br>
+To resolve this I used the form reset() method from the following website:
+<br>
+https://www.w3schools.com/jsref/met_form_reset.asp
+<br>
+<br>
 ## Deployment
 
 **GitPod Deployment**
