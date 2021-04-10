@@ -114,6 +114,60 @@ This section would show what the weather will be for the current week in Sydney.
 
 ## Testing
 
+Below is all the tests that have been carried out to ensure the website is functioning correctly.
+<br>
+<br>
+**Expected** – Navigation bar links go to the correct page section.
+<br>
+**Testing** – Tested this by clicking each link within the navigation bar.
+<br>
+**Result** – Each link went to the correct page section.
+<br>
+<br>
+**Expected** – Social media icons go to the correct page in a separate tab.
+<br>
+**Testing** – Tested this by clicking each social media icon.
+<br>
+**Result** – Each icon opened up the correct page in a new tab.
+<br>
+<br>
+**Expected** – Explore button links to the explore page section.
+<br>
+**Testing** – Tested this by clicking the button.
+<br>
+**Result** – The button went to the explore page section.
+<br>
+<br>
+**Expected** – Buttons on the explore page section display the correct markers on the Google Maps API.
+<br>
+**Testing** – Tested this by clicking each button.
+<br>
+**Result** – Each button displayed the correct markers on the Google Maps API.
+<br>
+<br>
+**Expected** – All fields on the contact form are mandatory to fill in.
+<br>
+**Testing** – Tested by trying to submit the contact form with one field being empty.
+<br>
+**Result** – An error message pops up saying please fill in this field.
+<br>
+<br>
+**Expected** – Email address field on the contact form requires an email address.
+<br>
+**Testing** – Enter random text that is not an email address in the field and submit it.
+<br>
+**Result** – An error message pops up saying please include an @ in the email address.
+<br>
+<br>
+**Expected** – When the contact form has been submitted it sends an email to me with the submitted information.
+<br>
+**Testing** – Tested this by correctly filling in the contact form and submitting it.
+<br>
+**Result** – I received an email with the submitted information.
+<br>
+<br>
+
+
 ### Code Validation
 
 * HTML file have been validated using the W3C HTML Validation Service website.
