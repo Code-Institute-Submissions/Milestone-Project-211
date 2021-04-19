@@ -29,7 +29,14 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 
 **Who** – Tourist.
 <br>
-**Want** – To view the best attractions in Sydney.
+**Want** – To navigate the web page easily.
+<br>
+**Why** – So I can quickly access the information I need to.
+<br>
+<br>
+**Who** – Tourist.
+<br>
+**Want** – To visit the best attractions in Sydney.
 <br>
 **Why** – To make the most of my short stay in the city.
 <br>
@@ -53,6 +60,27 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 **Want** – To find a hotel in a good location thats near the best tourist attractions.
 <br>
 **Why** – So I don't need to travel to far and see/do as much as I can in the city.
+<br>
+<br>
+**Who** – Tourist.
+<br>
+**Want** – To suggest more places to visit.
+<br>
+**Why** – So future tourists have more options to choose from.
+<br>
+<br>
+**Who** – Tourist.
+<br>
+**Want** – To give feedback on places that have been suggested by the website.
+<br>
+**Why** – So the site owners know whether the places they have suggested are still the best.
+<br>
+<br>
+**Who** – Tourist.
+<br>
+**Want** – To find social media links.
+<br>
+**Why** – To find out more information about Sydney tourism. 
 <br>
 ### Structure
 
