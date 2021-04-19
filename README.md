@@ -29,7 +29,7 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 
 **Who** – Tourist.
 <br>
-**Want** – To navigate the web page easily.
+**Want** – To navigate the website easily.
 <br>
 **Why** – So I can quickly access the information I need to.
 <br>
@@ -73,7 +73,7 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 <br>
 **Want** – To give feedback on places that have been suggested by the website.
 <br>
-**Why** – So the site owners know whether the places they have suggested are still the best.
+**Why** – So the site owner knows whether the places they have suggested are still the best.
 <br>
 <br>
 **Who** – Tourist.
@@ -198,8 +198,55 @@ Below is all the tests that have been carried out to ensure the website is funct
 
 ### Code Validation
 
-* HTML file have been validated using the W3C HTML Validation Service website.
+* HTML file has been validated using the W3C HTML Validation Service website.
 * CSS file has been validated using the W3C CSS Validation Service website.
+* JS files have been validated using the JSHint website.
+<br>
+
+### User Story Testing
+
+**User Story** – Tourist wants to navigate the website easily so they can quickly access the information they need.
+<br>
+**Result** – The navigation bar is top of the page and remains fixed in position when scrolling down.
+<br>
+![alt text](https://github.com/sanjaysanghera/Milestone-Project-2/blob/master/static/images/home-section.jpg)
+<br>
+<br>
+
+**User Story** – Tourist wants to visit the best attractions in Sydney.
+<br>
+**Result** – Clicking on the attractions button within the explore page section will display our top 3 attractions to visit.
+<br>
+<br>
+**User Story** – Tourist wants to eat at the best restaurants in Sydney.
+<br>
+**Result** – Clicking on the restaurants button within the explore page section will display our top 3 restaurants to eat.
+<br>
+<br>
+**User Story** – Tourist wants to experience the Sydney night life.
+<br>
+**Result** – Clicking on the bars/clubs button within the explore page section will display our top 3 bars/clubs to visit.
+<br>
+<br>
+**User Story** – Tourist wants to find a hotel in a good location thats near the best tourist attractions.
+<br>
+**Result** – Clicking on the hotels button within the explore page section will display our top 3 hotels to stay.
+<br>
+![alt text](https://github.com/sanjaysanghera/Milestone-Project-2/blob/master/static/images/explore-section.jpg)
+<br>
+<br>
+
+**User Story** – Tourist wants to suggest more places to visit and give feedback on the suggested places.
+<br>
+**Result** – The contact page section has a contact form the tourist can use to send the site owner a message.
+<br>
+<br>
+**User Story** – Tourist wants to find social media links
+<br>
+**Result** – The social media links are displayed in the footer of the website.
+<br>
+![alt text](https://github.com/sanjaysanghera/Milestone-Project-2/blob/master/static/images/contact-section.jpg)
+<br>
 <br>
 
 ## Supported Browsers And Devices
