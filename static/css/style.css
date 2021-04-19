@@ -120,9 +120,9 @@ body {
 }
 
 
-/* Explore/Contact text font style, size, positioning and colour */
+/* Explore text font style, size, positioning and colour */
 
-.explore-contact-text {
+.explore-text {
 	font-family: "Oswald", sans-serif;
 	text-align: center;
 	display: block;
@@ -235,6 +235,25 @@ div#map {
 	background-attachment: scroll;
 }
 
+/* Contact text font style, size, positioning and colour */
+
+.contact-text {
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	display: block;
+	color: #000000;
+	background-color: #ffffff;
+	font-weight: 300;
+	font-size: 30px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	border: 1px solid #000000;
+	background: rgba(255, 255, 255, 0.85);
+}
+
 
 /* Contact button font style, size, positioning and colour */
 
@@ -250,7 +269,8 @@ div#map {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
 }
 
 
@@ -273,6 +293,38 @@ div#map {
 .form-control {
 	border-radius: 12px;
 	border: 1px solid #000000;
+}
+
+/* Contact form pop up style, size, positioning and colour */
+
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
 
 
@@ -319,11 +371,14 @@ div#map {
 		font-size: 16px;
 		width: 80%;
 	}
-	.explore-contact-text {
+	.explore-text {
 		font-size: 16px;
 		width: 80%;
 		margin-bottom: 10px;
-	}
+    }
+    .contact-text {
+        display: none;
+    }
 	.explore-button {
 		width: 100px;
 		height: 50px;
@@ -372,7 +427,8 @@ div#map {
 	.contact-button {
 		width: 100px;
 		height: 50px;
-		font-size: 18px;
+        font-size: 18px;
+        margin-bottom: 15px;
 	}
 }
 
@@ -397,10 +453,13 @@ div#map {
 		font-size: 16px;
 		width: 80%;
 	}
-	.explore-contact-text {
+	.explore-text {
 		font-size: 16px;
 		width: 80%;
-	}
+    }
+    .contact-text {
+        display: none;
+    }
 	.explore-button {
 		width: 100px;
 		height: 50px;
@@ -446,7 +505,8 @@ div#map {
 	.contact-button {
 		width: 100px;
 		height: 50px;
-		font-size: 18px;
+        font-size: 18px;
+        margin-bottom: 15px;
 	}
 }
 
@@ -471,10 +531,13 @@ div#map {
 		font-size: 18px;
 		width: 80%;
 	}
-	.explore-contact-text {
+	.explore-text {
 		font-size: 18px;
 		width: 80%;
-	}
+    }
+    .contact-text {
+        display: none;
+    }
 	.map-button {
 		flex-basis: 40%;
 		margin: 5px;
@@ -491,6 +554,9 @@ div#map {
 	}
 	.form-group {
 		padding-bottom: 0px;
+    }
+	.contact-button {
+        margin-bottom: 15px;
 	}
 }
 
@@ -514,10 +580,13 @@ div#map {
 		font-size: 20px;
 		width: 75%;
 	}
-	.explore-contact-text {
+	.explore-text {
 		font-size: 20px;
 		width: 75%;
-	}
+    }
+    .contact-text {
+        display: none;
+    }
 	.map-button {
 		flex-basis: 40%;
 		margin: 5px;
@@ -534,6 +603,9 @@ div#map {
 	}
 	.form-group {
 		padding-bottom: 0px;
+    }
+	.contact-button {
+        margin-bottom: 15px;
 	}
 }
 
@@ -557,10 +629,14 @@ div#map {
 		font-size: 20px;
 		width: 75%;
 	}
-	.explore-contact-text {
+	.explore-text {
 		font-size: 20px;
 		width: 75%;
-	}
+    }
+    .contact-text {
+        font-size: 20px;
+        width: 75%;
+    }
 	.attractions-button {
 		margin-right: 25px;
 	}
@@ -597,7 +673,11 @@ div#map {
         font-size: 20px;
         margin-bottom: 15px;
 	}
-	.explore-contact-text {
+	.explore-text {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .contact-text {
         font-size: 20px;
         margin-bottom: 15px;
 	}
@@ -645,7 +725,8 @@ div#map {
 	.contact-button {
 		width: 100px;
 		height: 50px;
-		font-size: 18px;
+        font-size: 18px;
+        margin-bottom: 15px;
 	}
 }
 
@@ -665,7 +746,10 @@ div#map {
 	.home-text {
 		width: 75%;
 	}
-	.explore-contact-text {
+	.explore-text {
+		width: 75%;
+    }
+    .contact-text {
 		width: 75%;
 	}
 	.explore-button {
