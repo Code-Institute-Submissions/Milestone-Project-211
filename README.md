@@ -57,7 +57,7 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 <br>
 **Who** – Tourist.
 <br>
-**Want** – To find a hotel in a good location thats near the best tourist attractions.
+**Want** – To find a hotel in a good location that's near the best tourist attractions.
 <br>
 **Why** – So I don't need to travel to far and see/do as much as I can in the city.
 <br>
@@ -85,9 +85,9 @@ https://sanjaysanghera.github.io/Milestone-Project-2/
 ### Structure
 
 * The website will be a single scrolling page with 3 page areas.
-* The navigation bar will be sticky. This will become collapsable when on mobile device.
+* The navigation bar will be sticky. This will become collapsible when on mobile device.
 * The website will be responsive and the layouts will change according to the screen size.
-* The first page area will be named Discover Syndey. This will outline what Sydney has to offer for tourists.
+* The first page area will be named Discover Sydney. This will outline what Sydney has to offer for tourists.
 * The second page area will be named Explore. This will show the best attractions, bars/clubs, hotels and restaurants. 
 * The third page area will be named Contact. This will have a contact form where tourists can give us feedback and suggestions.
 * The footer will contain social media icons.
@@ -113,10 +113,10 @@ To see the wireframes for all pages on both desktop and mobile view please click
 
 ### Planned Features
 * The header will contain a sticky navigation bar. This will have 3 links which will direct you to the following page sections; Home, Explore & Contact.
-* The footer will contain 3 social media icons for Facebook, Instagram & Youtube which will direct you to the website of the icon selected.
-* The mobile view will get rid of the navigation bar and instead have a navigation button. When clicking this button the 3 navigation links will appear vertically on the page. 
+* The footer will contain 3 social media icons for Facebook, Instagram & YouTube which will direct you to the website of the icon selected.
+* The mobile view will get rid of the navigation bar and instead have a navigation button. When clicking this button, the 3 navigation links will appear vertically on the page. 
 * The Explore page section will contain 4 buttons for attractions, bars/clubs, hotels and restaurants, as well as a Google Maps API. Clicking on a button will show our top 3 picks for the selected category on the Maps API.
-* The Contact page section will contain a contact form which will have the following fields; Name, Email, Message. All fields will be mandatory to fill out and the form will be fully funnctional. An email will be sent out to the site owner when a form has been submitted.
+* The Contact page section will contain a contact form which will have the following fields; Name, Email, Message. All fields will be mandatory to fill out and the form will be fully functional. An email will be sent out to the site owner when a form has been submitted.
 
 ### Features Left to Implement
 
@@ -142,7 +142,7 @@ This section would show what the weather will be for the current week in Sydney.
 
 ## Testing
 
-Below is all the tests that have been carried out to ensure the website is functioning correctly.
+Below are all the tests that have been carried out to ensure the website is functioning correctly.
 <br>
 <br>
 **Expected** – Navigation bar links go to the correct page section.
@@ -228,7 +228,7 @@ Below is all the tests that have been carried out to ensure the website is funct
 **Result** – Clicking on the bars/clubs button within the explore page section will display our top 3 bars/clubs to visit.
 <br>
 <br>
-**User Story** – Tourist wants to find a hotel in a good location thats near the best tourist attractions.
+**User Story** – Tourist wants to find a hotel in a good location that's near the best tourist attractions.
 <br>
 **Result** – Clicking on the hotels button within the explore page section will display our top 3 hotels to stay.
 <br>
