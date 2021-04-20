@@ -294,8 +294,8 @@ https://www.w3schools.com/jsref/met_form_reset.asp
 **GitPod Deployment**
 <br>
 * Open the Milestone-Project-2 repository and click the GitPod button in the top right.
-* Navigate to the index.html file and set your Google Maps API key on line 155: <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa_c-o_cGHQw0ydJOygdnXvMwoBPfCwq8&callback=initMap"></script>
+* Navigate to the index.html file and set your Google Maps API key on line 155:
+![alt text](https://github.com/sanjaysanghera/Milestone-Project-2/blob/master/static/images/apikey.jpg)
 * In the command console type the following and hit enter: python3 -m http.server 3000
 * Go to the Open Ports tab next to the command console.
 * Click the Open Browser button for port 3000, this will display a preview of the website.
